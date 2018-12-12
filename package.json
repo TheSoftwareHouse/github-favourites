@@ -1,0 +1,57 @@
+{
+  "name": "github-favourites-tsh",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@babel/polyfill": "^7.0.0",
+    "@emotion/core": "^10.0.4",
+    "@emotion/styled": "^10.0.4",
+    "emotion-theming": "^10.0.4",
+    "qs": "^6.6.0",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-router-dom": "^4.3.1",
+    "whatwg-fetch": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "23.3.10",
+    "@types/node": "10.12.12",
+    "@types/qs": "^6.5.1",
+    "@types/react": "16.7.13",
+    "@types/react-dom": "16.0.11",
+    "@types/react-router-dom": "^4.3.1",
+    "babel-plugin-emotion": "^10.0.4",
+    "jest-dom": "^3.0.0",
+    "prettier": "^1.15.3",
+    "raw-loader": "^0.5.1",
+    "react-scripts": "2.1.1",
+    "react-testing-library": "^5.3.2",
+    "typescript": "3.2.2"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{ts,tsx}",
+      "!src/index.tsx",
+      "!src/serviceWorker.ts",
+      "!src/setupTests.ts",
+      "!src/theme/Global.styles.ts",
+      "!src/app/**/*Container.tsx",
+      "!src/components/atoms/icon/Icon.tsx"
+    ]
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component renders app correctly 1`] = `
+<div>
+  <section
+    class="layout css-1jsa027"
+  >
+    <header
+      class="header css-p0n1vq"
+    >
+      <div
+        class="header__content css-pmsyce"
+      >
+        <h1
+          class="header__title css-7h8kd1"
+        >
+          Search favourites
+        </h1>
+        <img
+          alt="Logo"
+          class="header-logo"
+          src="logo.png"
+        />
+      </div>
+    </header>
+    <div
+      class="css-9uvy62"
+    >
+      <section
+        class="layout__content css-6ln5j9"
+      >
+        <section
+          class="search__box box css-9lwejs"
+        >
+          <div
+            class="input css-co7rad"
+          >
+            <input
+              class="input__field"
+              id="name"
+              maxlength="60"
+              name="name"
+              value=""
+            />
+            <label
+              class="input__label css-jrw360"
+              for="name"
+            >
+              Repo name or description
+            </label>
+            <div
+              class="input__counter css-17d9fe5"
+            >
+              0
+               / 
+              60
+            </div>
+          </div>
+          <div
+            class="select-field css-1tmehsk"
+          >
+            <div
+              class="select-field__input css-7xqnnq"
+            >
+              <div
+                class="css-crxi2m"
+                color="textLightColor"
+                name="chevron-arrow-down"
+              />
+            </div>
+            <label
+              class="select-field__label css-jrw360"
+              for="language"
+            >
+              Language
+            </label>
+          </div>
+          <div
+            class="search__submit css-1qvnd68"
+          >
+            <button
+              class="search__submit-button button button--disabled css-aenjb1"
+              disabled=""
+            >
+              <div
+                class="icon css-uivog"
+                color="primaryColor"
+                name="add-square-button"
+              />
+              Add to list
+            </button>
+          </div>
+        </section>
+        <div
+          class="search__favourite-list css-16n4kcf"
+        />
+      </section>
+    </div>
+  </section>
+</div>
+`;
