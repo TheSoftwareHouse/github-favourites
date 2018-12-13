@@ -12,7 +12,7 @@ REACT_APP_GITHUB_API_URL=https://api.github.com/
 REACT_APP_GITHUB_ACCESS_TOKEN=SECRET_TOKEN 
 ```
 
-Create .env.development.local and .env.production.local files, one for development and seconde for production build.
+Create .env.development.local and .env.production.local files, one for development and second for production build.
 
 ## Available Scripts
 
