@@ -44,7 +44,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 ## Project Structure
 
 #### `api`
-REST API Client definition, in subfolder `actions` you can add new API actions definition.
+REST API Client definition, in subfolder `actions` you can add new API action definition.
 
 #### `app`
 Place for pages of application, structured in directories based on application Domain/Routing.
@@ -62,7 +62,7 @@ Place for dictionaries, ie. list of available languages in select field on homep
 Test utils and mocks, ie. ThemeProvider mock
 
 #### `theme`
-Default Theme definition and variables, ie colors, font sizes, defualt margins etc.
+Default Theme definition and variables, ie. colors, font sizes, default margins etc.
 
 #### `other`
 Tests are placed in the same directory as tested functionality. 
